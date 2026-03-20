@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabinet+Grotesk:wght@300;400;500;700&display=swap');
+
+:root {
+  --cream:   #EFE6DE;
+  --navy:    #1E2A50;
+  --crimson: #8B0000;
+  --ink:     #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Cabinet Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+[data-animate] { opacity: 0; }
