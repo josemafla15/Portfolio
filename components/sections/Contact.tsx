@@ -57,9 +57,10 @@ export default function Contact() {
 
         @media (max-width: 640px) {
           #contact {
-            height: auto;
-            min-height: 100vh;
-            padding: 80px 24px;
+            height: 100dvh;
+            min-height: unset;
+            padding: 0 24px;
+            overflow: hidden;
           }
           .contact-cta {
             padding: 14px 28px;
