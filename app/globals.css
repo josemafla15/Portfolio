@@ -47,3 +47,12 @@ html,
 body {
   overscroll-behavior: none;
 }
+
+.nav-link {
+  position: relative !important;
+}
+
+.nav-link {
+  position: relative !important;
+  display: inline-block !important;
+}

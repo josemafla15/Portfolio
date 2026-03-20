@@ -13,7 +13,7 @@ const projects = [
     category: 'Dashboard operativo',
     tags: ['Django', 'Angular', 'API'],
     desc: 'Una interfaz pensada para centralizar inventario, pedidos y seguimiento diario en un solo lugar.',
-    year: '2024',
+    year: '2025',
   },
   {
     num: '03',
@@ -361,10 +361,10 @@ export default function Projects() {
                 </div>
                 <div className="project-card-right">
                   <Preview />
-                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                  {/* <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <span style={{ fontFamily: "'Cabinet Grotesk',sans-serif", fontSize: '11px', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(239,230,222,0.44)' }}>Preview visual</span>
                     <span style={{ fontFamily: "'Cabinet Grotesk',sans-serif", fontSize: '12px', color: 'rgba(239,230,222,0.88)' }}>Ver proyecto</span>
-                  </div>
+                  </div> */}
                 </div>
               </article>
             )
